@@ -59,8 +59,8 @@ int main(int argc, char* argv[]){
 	close(newFile);
 	
 	
-	//cout << "Copied " << fileSize << " bytes in " << totalTime << " seconds, at the rate of " << fixed << (fileSize/totalTime) << " bytes per second." << endl;
-	cout << bufSize << "," << fileSize << "," << totalTime << "," << fixed << (fileSize/totalTime) << endl;
+	cout << "Copied " << fileSize << " bytes in " << totalTime << " seconds, at the rate of " << fixed << (fileSize/totalTime) << " bytes per second." << endl;
+	//cout << bufSize << "," << fileSize << "," << totalTime << "," << fixed << (fileSize/totalTime) << endl;
 	
 }
 
