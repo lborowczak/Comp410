@@ -22,7 +22,7 @@ long getFileSize(char* filename){
 
 int main(int argc, char* argv[]){
 	
-	//check if there is the correct number of arguments
+	//check if there are the correct number of arguments
 	if (argc < 3){
 		cout << "At least 3 arguments expected." << endl;
 		cout << "Paramaters: [buffer size] [source file] [destination file]" << endl;
