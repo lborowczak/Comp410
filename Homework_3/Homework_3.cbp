@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Homework_3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Homework_3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="--readfile" />
+				<Compiler>
+					<Add option="-Wmain" />
+					<Add option="-std=c++11" />
+					<Add option="-Wextra" />
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-pthread" />
+					<Add directory="/home/lmb/Comp410/Homework_3/" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+					<Add option="-lpthread" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Homework_3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="/home/lmb/Comp410/Homework_3/" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Calculator.cpp" />
+		<Unit filename="Calculator.hpp" />
+		<Unit filename="NumberReader.cpp" />
+		<Unit filename="NumberReader.hpp" />
+		<Unit filename="NumberWriter.cpp" />
+		<Unit filename="NumberWriter.hpp" />
+		<Unit filename="Program.cpp">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="Program.hpp" />
+		<Unit filename="ProgressMonitor.cpp" />
+		<Unit filename="ProgressMonitor.hpp" />
+		<Unit filename="Sequence.cpp" />
+		<Unit filename="Sequence.hpp" />
+		<Unit filename="SpinLock.cpp" />
+		<Unit filename="SpinLock.hpp" />
+		<Unit filename="ThreadSafeIntQueue.cpp" />
+		<Unit filename="ThreadSafeIntQueue.hpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1445652216 source:/home/lmb/Comp410/Homework_3/Program.cpp
+	"Program.hpp"
+	"Calculator.hpp"
+	"NumberWriter.hpp"
+	"NumberReader.hpp"
+	"ProgressMonitor.hpp"
+	"Sequence.hpp"
+	"ThreadSafeIntQueue.hpp"
+	<iostream>
+	<thread>
+	<chrono>
+	<string>
+	<atomic>
+
+1445363050 /home/lmb/Comp410/Homework_3/Program.hpp
+
+1445470547 /home/lmb/Comp410/Homework_3/Calculator.hpp
+	"ThreadSafeIntQueue.hpp"
+	<atomic>
+
+1445651241 /home/lmb/Comp410/Homework_3/ThreadSafeIntQueue.hpp
+	<queue>
+	<vector>
+	"SpinLock.hpp"
+
+1445532957 /home/lmb/Comp410/Homework_3/SpinLock.hpp
+	<iostream>
+	<atomic>
+
+1445291052 /home/lmb/Comp410/Homework_3/NumberWriter.hpp
+
+1445284886 /home/lmb/Comp410/Homework_3/NumberReader.hpp
+	"ThreadSafeIntQueue.hpp"
+
+1445652071 /home/lmb/Comp410/Homework_3/ProgressMonitor.hpp
+	<vector>
+	"ThreadSafeIntQueue.hpp"
+
+1445290636 /home/lmb/Comp410/Homework_3/Sequence.hpp
+
+1445651989 source:/home/lmb/Comp410/Homework_3/Calculator.cpp
+	"Calculator.hpp"
+	<math.h>
+	<thread>
+	<chrono>
+	<vector>
+
+1445651917 source:/home/lmb/Comp410/Homework_3/NumberReader.cpp
+	<fstream>
+	<iostream>
+	<thread>
+
+1445292223 source:/home/lmb/Comp410/Homework_3/NumberWriter.cpp
+	"NumberWriter.hpp"
+	<fstream>
+
+1445652032 source:/home/lmb/Comp410/Homework_3/ProgressMonitor.cpp
+	<thread>
+	<chrono>
+	<iostream>
+
+1445359395 source:/home/lmb/Comp410/Homework_3/Sequence.cpp
+	<vector>
+
+1445532974 source:/home/lmb/Comp410/Homework_3/SpinLock.cpp
+	"SpinLock.hpp"
+	<chrono>
+	<thread>
+	<iostream>
+
+1445651286 source:/home/lmb/Comp410/Homework_3/ThreadSafeIntQueue.cpp
+	"ThreadSafeIntQueue.hpp"
+
