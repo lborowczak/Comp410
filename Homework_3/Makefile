@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS  = -g -Wall -std=c++11 -pthread
+CFLAGS  = -O3 -Wall -std=c++11 -pthread
 
 default: Homework3
 
