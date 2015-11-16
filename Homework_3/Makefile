@@ -3,7 +3,7 @@ CFLAGS  = -g -Wall -std=c++11 -pthread
 
 default: Homework3
 
-Homework_3: Program.cpp Calculator.o NumberWriter.o NumberReader.o ProgressMonitor.o Sequence.o ThreadSafeIntQueue.o SpinLock.o
+Homework3: Program.cpp Calculator.o NumberWriter.o NumberReader.o ProgressMonitor.o Sequence.o ThreadSafeIntQueue.o SpinLock.o
 	$(CC) $(CFLAGS) -o Homework3.exe Program.cpp Calculator.o NumberWriter.o NumberReader.o ProgressMonitor.o Sequence.o ThreadSafeIntQueue.o SpinLock.o
 
 Calculator.o: Calculator.hpp Calculator.cpp ThreadSafeIntQueue.hpp
